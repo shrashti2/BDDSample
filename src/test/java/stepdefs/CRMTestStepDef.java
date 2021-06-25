@@ -65,6 +65,7 @@ public class CRMTestStepDef {
 		public void user_is_on_home_page() {
 			boolean isValid = driver.findElement(By.className("user-display")).isDisplayed();
 			Assert.assertTrue(isValid);
+			System.out.println("Updated....");
 		}
 		@Then("Close Browser")
 		public void close_browser() {
