@@ -46,6 +46,7 @@ public class GooglePageStepdef {
 		@Then("Close the Browser")
 		public void close_the_browser() {
 			driver.close();
+			System.out.println("Updated by user 2");
 		}
 	
 		@When("I search Selenium Tutorial")
